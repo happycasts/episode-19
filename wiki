@@ -2,4 +2,12 @@ name of this episode: latex
 I will foucs on my own template, the cast won't be a all-feather talk, but rather a useful template rundown
 foucs on writing a book.
 
+#install
+
+    sudo apt-get install texlive
+
+maybe need to install new font for Chinese: https://github.com/larrycai/kaiyuanbook/wiki
+
+    fc-list :lang=zh-cn | grep CN
+    sudo apt-get install ttf-arphic-uming 
 
